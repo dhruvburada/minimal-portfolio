@@ -1,0 +1,267 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body
+{
+    font-family: "poppins","sans-serif";
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo
+{
+    font-size: 2rem;
+}
+
+.nav
+{
+    margin: 0 10rem;
+    display: flex;
+    justify-content:space-between ;
+    height: 17vh;
+    align-items: center;
+}
+
+.items .item
+{
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.items 
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item a , .logo a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+.profile
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    gap: 5rem;
+}
+.profile-image
+{
+    height: 400px;
+    width: 400px;
+    background-image: url("assests/images/profile.png");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    border-radius: 205px;
+
+}
+
+.profile-info
+{
+    text-align: center;
+    line-height: 1;
+    /*font-weight: 600;*/
+}
+
+
+p {
+    color: rgb(85, 85, 85);
+
+}
+
+
+.btn-color-2
+{
+    background-color: white;
+    color: black;
+
+}
+
+.btn-color-2:hover
+{
+    background-color: black;
+    color: white;
+    transform: scale(1.05);
+}
+
+.btn:hover
+{
+    cursor: pointer;
+}
+
+.btn-color-1
+
+{
+    background-color: black;
+    color: white;
+    
+}
+
+
+.button-container
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+
+
+.btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+
+.name
+
+{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.title , .subtitle
+{
+    display: flex;
+    justify-content: center;
+}
+
+.title
+{
+    font-size: 21px;
+    letter-spacing:1px;
+}
+
+
+.social-media-container
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 1.5rem;
+}
+.social-media-container img
+{
+   height: 30px;
+   width: 30px;
+}
+
+.social-media-container a:hover
+{
+    scale: 1.1;
+    animation-duration: 300;
+}
+
+.Rectangle-Image-container {
+    width: 400px; /* Adjust the width as needed */
+    height: 400px; /* Maintain the aspect ratio */
+    overflow: clip; /* Hide any overflow */
+    border-radius: 2rem; /* Adjust the radius as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+.Rectangle-Image-container img {
+    width: 100%;
+    height: auto; 
+    object-fit: cover;
+     /* Ensures the image covers the container without distortion */
+}
+
+
+
+.about-container
+{
+
+    margin: 3rem;
+    margin-left: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:3rem;
+    align-items: center;
+    flex: 1;
+}
+
+
+.about-text-container {
+    flex: 2; /* Text container takes up 2 parts of the available space */
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.about-text-container p {
+    margin: 10px 0;
+    line-height: 1.6;
+ /* Improve readability */
+}
+
+#college
+{
+    margin: 0px;
+}
+
+.skills-container
+{
+    display: flex;
+    justify-content: center;
+    gap:4.5rem;
+}
+
+.languages, .tools
+{   
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    margin-top: 2rem;
+
+
+}
+
+
+#skills
+{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+
+
+
+.item
+{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin: 2rem;
+}
+
+.item img 
+{
+    margin-right: 3px;
+}
+
+.list-container
+{
+    display: flex;
+    justify-items: center;
+    gap: 7rem;
+}
