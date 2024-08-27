@@ -1,3 +1,8 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
 *{
     padding: 0px;
     margin: 0px;
@@ -237,7 +242,7 @@ p {
 #skills
 {
     padding-top: 4vh;
-    height: 96vh;
+    height: 85vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -262,6 +267,107 @@ p {
 .list-container
 {
     display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+#projects
+{
+    height: 85vh;
+}
+
+.project
+{
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.projects-container
+
+{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding: 0 10rem;
+}
+
+.project-image img
+{
+    height: 90%;
+    width: 90%;
+    border-radius: 2rem;
+}
+
+.project button
+{
+    margin-top: 3px;
+}
+
+.project p
+{
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+#contact
+{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-details-container{
+    margin: 1.5rem 30rem;
+    width: fit-content;
+    display: flex;
     justify-items: center;
-    gap: 7rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    border-radius: 2rem;
+    padding: 1.5rem;
+    gap: 1.5rem;
+
+}
+
+.email-details , .linkedin-details
+{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    font-size: 600;
+}
+
+.text a {
+    font-size: 21px;
+}
+
+#contact .subtitle
+{
+    margin-top: 3%;
+}
+
+.footer-nav
+{
+    display: flex;
+    justify-content: center;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
+
+}
+
+a
+{
+    transition: all 300ms ease;
 }
